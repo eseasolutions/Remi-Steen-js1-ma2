@@ -37,7 +37,7 @@ input.onkeyup = function () {
 
 //Question 5
 
-body.onscroll = function () {
+window.onscroll = function () {
     if (this.scrollY >= 35) {
         body.classList.add("highlight");
     } else {
